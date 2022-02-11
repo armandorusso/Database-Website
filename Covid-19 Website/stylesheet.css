@@ -1,0 +1,56 @@
+#theForm{
+	display:table;
+	padding:15px;
+	background-color: darkslategray;
+	color:white;
+	
+}
+
+.r{
+	display:table-row;
+	padding:5px;
+}
+
+.r label{
+	display: table-cell;
+	padding:5px;
+}
+
+.r input{
+	display: table-cell;
+	padding:5px;
+}
+
+body {
+	background-color: darkslategray;
+}
+
+.center {
+  text-align: center;
+  border: 3px solid #540b0e;
+}
+
+table, th, td {
+	border: 1px solid black;
+	text-align:center;
+}
+
+table{
+	border: 1px solid black;
+
+	width:100%;
+	color:#588c7e;
+	font-family:monospace;
+	font-size:25px;
+	text-align:left;
+	border: 1px solid black;
+}
+
+th{
+	background-color:#d96459;
+	color:white;
+}
+
+tr{color:black;}
+tr:nth-child(even) {background-color:#ffe5d9;}
+tr:nth-child(odd) {background-color:white;}
